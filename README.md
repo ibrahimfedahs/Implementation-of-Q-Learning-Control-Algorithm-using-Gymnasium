@@ -1,4 +1,4 @@
-# Implementation-of-Q-Learning-Control-Algorithm-using-Gymnasium
+# Implementation of Q Learning Control Algorithm using Gymnasium
 
 ## Aim
 
