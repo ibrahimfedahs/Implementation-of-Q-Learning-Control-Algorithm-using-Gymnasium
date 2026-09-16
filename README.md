@@ -8,15 +8,32 @@ To implement the **Q-Learning control algorithm** using the Gymnasium `FrozenLak
 
 ## Problem Statement
 
-
+Implement the Q-Learning control algorithm in the Gymnasium FrozenLake-v1 environment. The agent should learn the best actions through repeated interaction with the environment and finally learn a policy that helps it reach the goal while avoiding the holes.
 
 ## Software Requirements
 
-
+Python
+Gymnasium
+NumPy
 
 ## Environment Description
 
+The experiment uses the FrozenLake-v1 environment from Gymnasium.
 
+The environment represents a frozen lake where:
+
+The agent starts from a starting state.
+The agent can move in four directions.
+Some states are safe frozen areas.
+Some states are holes.
+One state is the goal.
+The objective is to reach the goal state while avoiding the holes.
+
+The program creates the environment using:
+
+env = gym.make("FrozenLake-v1", is_slippery=False)
+
+Here, is_slippery=False makes the environment deterministic, so the selected movement happens without the random slipping effect.
 
 ## Theory
 
