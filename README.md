@@ -85,7 +85,23 @@ $$
 
 ## Algorithm
 
-
+Create the FrozenLake environment.
+Obtain the number of states and actions.
+Initialize the Q-table with zeros.
+Set the learning parameters.
+Start training for a fixed number of episodes.
+Reset the environment at the beginning of each episode.
+Select an action using the epsilon-greedy method.
+Execute the action in the environment.
+Receive the reward and next state.
+Update the Q-value using the Q-Learning update rule.
+Move to the next state.
+Continue until the episode terminates.
+Reduce epsilon after each episode.
+Calculate the state-value function.
+Extract the learned policy.
+Calculate the average reward over the last 1000 episodes.
+Display the results.
 
 ## Python Program
 
@@ -260,7 +276,13 @@ Average reward over last 1000 episodes:
 ## Result
 
 
-Thus, the Q-Learning control algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment. The agent learned an optimal action-value function through repeated interaction with the environment using epsilon-greedy exploration and the Q-Learning update rule. The learned policy enables the agent to reach the goal while avoiding the holes.
+
+```text
+Thus, the Q-Learning control algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment.
+
+The agent learned an optimal action-value function through repeated interaction with the environment using epsilon-greedy exploration and the Q-Learning update rule.
+
+The learned policy enables the agent to reach the goal while avoiding the holes.
 
 ```
 
